@@ -1,12 +1,12 @@
-<head>
-    <h1>Oxlazel Reroller</h1>
-    <script src="function.js"></script>
-    <script src="style.css"></script>
+<head > 
+    <script src="{{ asset('function.js') }}"></script>
+    <script src="{{ asset('style.css') }}"></script>
 </head>
-<body style="background-color: black">
-    <p id="jubilife" class="font-weight-bold text-right">by BMBB</p>
-    <h1 class="border-bottom border-dark">Traits</h1>
-    <span class="game-font GFG">Trait Chances</span>
+<body style=" background-color: rgb(0, 0, 0) ">
+    <h2 class = "border-bottom border-dark" style = "color: white"> Oxlazel Reroller </h2>
+    <p id="jubilife" class="font-weight-bold text-right" style="color: white">by BMBB</p>
+    <h1 class="border-bottom border-dark" style="color: white">Traits</h1>
+    <span class="game-font GFG" style="color: white" >Trait Chances</span>
     <table style="background-color: rgb(0, 0, 0)">
         <tbody>
             <tr class="rare" p style="color: white">
