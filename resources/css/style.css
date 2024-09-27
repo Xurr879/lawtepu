@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: silver;
+}
+span {
+    font-weight: bold;
+}
+ul {
+    /*list-style-image: url("gifs/kyoob2.gif");*/
+    padding: 5px;
+    margin: 5px;
+}
+table,
+button {
+    font-family: "Fredoka One", cursive;
+}
+
+.rare {
+    color: #0d8cff;
+    font-family: "Fredoka One", cursive;
+}
+.epic {
+    color: #7c04f5;
+    font-family: "Fredoka One", cursive;
+}
+.legendary {
+    color: #ffc71e;
+    font-family: "Fredoka One", cursive;
+}
+.mythic {
+    background: linear-gradient(
+        0,
+        #76f1ff 30%,
+        #fe56ff 50%,
+        #ffec62 60%,
+        #fe56ff 77%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Fredoka One", cursive;
+}
+.secret {
+    color: #e01419;
+    font-family: "Fredoka One", cursive;
+}
+
+img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.game-font {
+    font-family: "Fredoka One", cursive;
+}
+
+td {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+table {
+    border: 1px solid;
+}
+
+.GFG {
+    color: white;
+    font-size: 50px;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+        -1px -1px 0 #000;
+}
+
+/*
+{{#switch: {{{1}}}
+| Secret =<span class="game-font-face" style="color: #e01419;">Secret</span>
+| Mythic | Mythical = <span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mythical<span class="Tsh(Game) mobile-hidden" style="position: absolute; z-index: -1; left: 0;">Mythical</span></span>
+| Legendary =<span class="Tsh(Game) game-font-face" style="color: #ffc71e;">Legendary</span>
+| Epic =<span class="game-font-face" style="color: #7c04f5;">Epic</span>
+| Rare =<span class="game-font-face" style="color: #0d8cff;">Rare</span>
+|<span class="game-font-face" style="color: #565456;">Unknown</span>
+}}<noinclude>{{Doc}}</noinclude>
+*/
+
+#trait {
+    font-size: 25px;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
