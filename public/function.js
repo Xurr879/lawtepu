@@ -93,13 +93,14 @@ function roll_trait(){
 }
 
 function GFG_Fun(image){
-    var img = document.createElement('img' );
+    var img = document.createElement('img');
     img.src = image + ".png";
+    img.style.width = '50px';
     if(rerolls == 0){
         document.getElementById('icon').appendChild(img);
     }
     else{
-        document.getElementById("icon").insertBefore(img, document.getElementById("icon").children[0]);
+        document.getElementById("icon").insertBefore(img, document.getElementById("icon" ).children[0]);
     }
 
 }
@@ -118,13 +119,13 @@ function roll_until(){
     if(select == "mythic"){
         while(!(document.getElementById("trait").classList.contains(select))){
             setTimeout(roll_trait(), 100);
-            width="20px"
+
         }
     }
     else{
         while(!(document.getElementById("trait").innerHTML == select)){
             setTimeout(roll_trait(), 100);
-            width="20px"
+
     }
 }
 }
